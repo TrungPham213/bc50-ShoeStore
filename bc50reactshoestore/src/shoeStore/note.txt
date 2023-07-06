@@ -1,0 +1,4 @@
+ <div className="container">
+        <h1 className="display-4 text-center my-3" style={{fontSize:'3rem', fontWeight:'300', textAlign:'center'}}>Shoe Shop</h1>
+        <ProductList listProduct={this.state.ProductList}/>
+        <Modal/>
